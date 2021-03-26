@@ -5,6 +5,14 @@ This demo is based on ESP-IDF A2DP-SOURCE code. The demo is modified so bluetoot
 ### Hardware Required
 
 This example is able to run on any commonly available ESP32 development board. The I2S input should be connected to I2S ESP32 pins. 
+I2S pinout:
+- I2S_PIN_BCK - D26
+- I2S_PIN_LRCK - D25
+- I2S_PIN_BCK - D27
+
+MGMT UART pinout:
+- UART Tx - D4
+- UART Rx - D5
 
 ### BT Security Database
 To delete ALL existing BT paired devices, push RESET button and then immediately hold down BOOT button (do not hold down BOOT while pressing RESET! that would place the device in download mode.)
