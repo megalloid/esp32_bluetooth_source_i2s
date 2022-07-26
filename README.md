@@ -1,6 +1,6 @@
 ESP32 Bluetooth A2DP-SOURCE using I2S external source
 ========================
-This demo is based on ESP-IDF A2DP-SOURCE code. The demo is modified so bluetooth sink (speaker) is sourced with audio via I2S external source at 48000 sample rate. The standard demo's connect/disconnect looping mode is disabled. You can scan and choose a BT MAC to pairing/discovery mode. ESP32 has UART MGMT interface. 
+This demo is based on ESP-IDF A2DP-SOURCE code. The demo is modified to bluetooth source is sourced with audio via I2S external source at 48000 sample rate. The standard demo's connect/disconnect looping mode is disabled. You can scan and choose a BT MAC to pairing/discovery mode. ESP32 has UART MGMT interface. 
 
 ### Hardware Required
 
